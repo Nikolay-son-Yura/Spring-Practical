@@ -1,17 +1,22 @@
-package ru.gb.Lesson8;
+package ru.gb;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+
+import ru.gb.model.*;
+import ru.gb.repository.*;
 
 import java.time.LocalDate;
 import java.util.concurrent.ThreadLocalRandom;
 
+@EnableDiscoveryClient
 @SpringBootApplication
-public class TimesheetApplication {
+public class TimesheetRestApplication {
     public static void main(String[] args) {
 
-        ApplicationContext ctx = SpringApplication.run(TimesheetApplication.class, args);
+        ApplicationContext ctx = SpringApplication.run(TimesheetRestApplication.class, args);
 
         ProjectRepository projectRepo = ctx.getBean(ProjectRepository.class);
         for (int i = 1; i <= 5; i++) {

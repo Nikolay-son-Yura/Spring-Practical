@@ -4,11 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4406d312-2474-465c-9ea0-9fd519f36806" name="Changes" comment="" />
+    <list default="true" id="4406d312-2474-465c-9ea0-9fd519f36806" name="Changes" comment="project restoration">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurika-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurika-server/src/main/java/ru/gb/EurekaServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurika-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurika-server/src/test/java/ru/gb/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/TimesheetPageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/EmployeeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/ProjectResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/TimesheetResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/TimesheetRestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/EmployeePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/ProjectPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/TimesheetPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageDto/EmployeePageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageDto/ProjectPageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageDto/TimesheetPageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/EmployeePageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/ProjectPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/TimesheetPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/security/MyCustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/employee-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/employees-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/not-found.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/oops.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/project-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/projects-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/timesheet-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/timesheets-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-page/src/test/java/ru/gb/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/TimesheetRestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/aspect/Recover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/aspect/RecoverAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/controller/API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/controller/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/controller/ExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/controller/TimesheetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/Timesheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/repository/TimesheetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/repository/UserRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/security/MyCustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/service/TimesheetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/test/java/ru/gb/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/TimesheetApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/TimesheetApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/AppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,20 +93,60 @@
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="2kBlXerA1d7OtivyMzgc5CS5lhi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EurekaServer.executor": "Run",
+    "Application.TimesheetApplication.executor": "Run",
+    "Application.TimesheetPageApplication.executor": "Debug",
+    "Application.TimesheetRestApplication.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Kolka/Учеба/Учеба/JAVA/JAVA Spring/Practical/SpringPractical/eurika-server/src/main",
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.gb.page.pageService" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\eurika-server\src\main" />
+      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\timesheet-page\src\main" />
+      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\timesheet-page\src\main\java\ru\gb\client" />
+      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\timesheet-page\src\main\java\ru\gb" />
+      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\timesheet-page\src\main\java\ru\gb\page" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.gb" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.gb.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TimesheetPageApplication">
+    <configuration name="EurekaServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.EurekaServer" />
+      <module name="eurika-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TimesheetApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.Lesson8.TimesheetApplication" />
       <module name="SpringPractical" />
@@ -44,8 +160,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimesheetPageApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.TimesheetPageApplication" />
+      <module name="timesheet-page" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimesheetRestApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.TimesheetRestApplication" />
+      <module name="timesheet-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimesheetPageApplication" />
+        <item itemvalue="Application.TimesheetRestApplication" />
+        <item itemvalue="Application.EurekaServer" />
         <item itemvalue="Application.TimesheetApplication" />
       </list>
     </recent_temporary>
@@ -59,6 +204,30 @@
       <option name="presentableId" value="Default" />
       <updated>1722764893068</updated>
     </task>
+    <task id="LOCAL-00001" summary="project restoration">
+      <option name="closed" value="true" />
+      <created>1722765141157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722765141157</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project restoration" />
+    <option name="LAST_COMMIT_MESSAGE" value="project restoration" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/TimesheetPageService.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
