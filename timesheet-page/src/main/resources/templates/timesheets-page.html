@@ -23,11 +23,11 @@
     <tbody>
     <tr th:each="timesheet : ${timesheets}">
         <td><span th:text="${timesheet.id}"></span></td>
-        <td><a th:href="@{'/home/projects/{id}'(id=${timesheet.projectId})}" th:text="${timesheet.projectId}" ></a></td>
-        <td><a th:href="@{'/home/employees/{id}'(id=${timesheet.employeeId})}" th:text="${timesheet.employeeId}"></a></td>
+        <td><a th:href="@{'/projects/{id}'(id=${timesheet.projectId})}" th:text="${timesheet.projectId}" ></a></td>
+        <td><a th:href="@{'/employees/{id}'(id=${timesheet.employeeId})}" th:text="${timesheet.employeeId}"></a></td>
         <td><span th:text="${timesheet.minutes}"></span></td>
         <td><span th:text="${timesheet.createdAt}"></span></td>
-        <td><a th:href="@{'/home/timesheets/{id}'(id=${timesheet.id})}">Перейти к записи</a></td>
+        <td><a th:href="@{'/timesheets/{id}'(id=${timesheet.id})}">Перейти к записи</a></td>
 
     </tr>
     </tbody>

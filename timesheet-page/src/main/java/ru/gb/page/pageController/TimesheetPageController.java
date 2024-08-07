@@ -30,7 +30,7 @@ public class TimesheetPageController {
 
     @GetMapping("/{id}")
     public String getTimesheetPage(@PathVariable Long id, Model model) {
-        Optional<TimesheetPageDto> timesheetOpt = service.findById(id);
+        Optional<TimesheetPageDto> timesheetOpt = service.проверка(id);
         if (timesheetOpt.isEmpty()) {
             throw new NoSuchElementException();
         }

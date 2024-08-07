@@ -20,22 +20,22 @@ import java.util.Optional;
 public class ProjectPageController {
     private final ProjectPageService service;
 
-//    @GetMapping
-//    public String getAllProjects(Model model) {
-//        List<ProjectPageDto> projects = service.findAll();
-//        model.addAttribute("projects", projects);
-//        return "projects-page.html";
-//    }
-//
-//    @GetMapping("/{id}")
-//    public String getProjectPage(@PathVariable Long id, Model model) {
-//        Optional<ProjectPageDto> projectOpt = service.findById(id);
-//        if (projectOpt.isEmpty()) {
-//            throw new NoSuchElementException();
-//        }
-//
-//        model.addAttribute("project", projectOpt.get());
-//        return "project-page.html";
-//    }
+    @GetMapping
+    public String getAllProjects(Model model) {
+        List<ProjectPageDto> projects = service.findAll();
+        model.addAttribute("projects", projects);
+        return "projects-page.html";
+    }
+
+    @GetMapping("/{id}")
+    public String getProjectPage(@PathVariable Long id, Model model) {
+        Optional<ProjectPageDto> projectOpt = service.findById(id);
+        if (projectOpt.isEmpty()) {
+            throw new NoSuchElementException();
+        }
+
+        model.addAttribute("project", projectOpt.get());
+        return "project-page.html";
+    }
 
 }

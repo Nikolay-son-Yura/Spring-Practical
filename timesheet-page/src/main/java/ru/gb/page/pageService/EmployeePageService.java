@@ -15,17 +15,20 @@ import ru.gb.page.pageDto.TimesheetPageDto;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.concurrent.ThreadLocalRandom;
 
 @Service
 
 public class EmployeePageService {
+
     private final DiscoveryClient discoveryClient;
 
     public EmployeePageService(DiscoveryClient discoveryClient) {
         this.discoveryClient = discoveryClient;
     }
+
     private RestClient restClient() {
         List<ServiceInstance> instances = discoveryClient.getInstances("TIMESHEET-REST");
         int instancesCount = instances.size();
@@ -36,39 +39,48 @@ public class EmployeePageService {
         System.out.println("URI = " + uri);
         return RestClient.create(uri);
     }
+    private List<EmployeeResponse> requestList(String s) {
+        return Objects.requireNonNull(restClient().get()
+                .uri(s)
+                .retrieve()
+                .body(new ParameterizedTypeReference<>() {
+                }));
+    }
+
+    private EmployeeResponse request(String s) {
+        return Objects.requireNonNull(restClient().get()
+                .uri(s)
+                .retrieve()
+                .body(EmployeeResponse.class));
+    }
+    private EmployeePageDto convertRequest(EmployeeResponse employeeResponse) {
+        EmployeePageDto employeePageDto = new EmployeePageDto();
+        employeePageDto.setId(String.valueOf(employeeResponse.getId()));
+        employeePageDto.setFirstName(employeeResponse.getFirstName());
+        return employeePageDto;
+    }
+
     public List<EmployeePageDto> findAll() {
         List<EmployeeResponse> employeeResponses = null;
         try {
-            employeeResponses=restClient().get()
-                    .uri("/employees")
-                    .retrieve()
-                    .body(new ParameterizedTypeReference<List<EmployeeResponse>>(){});
-        }catch (HttpServerErrorException ignored){
-
+            employeeResponses = requestList("/employees");
+        } catch (HttpServerErrorException ignored) {
         }
         if (employeeResponses == null) {
             throw new RuntimeException("oops");
         }
-        List<EmployeePageDto> result= new ArrayList<>();
+        List<EmployeePageDto> result = new ArrayList<>();
         for (EmployeeResponse employee : employeeResponses) {
-            EmployeePageDto employeePageDto =new EmployeePageDto();
-            employeePageDto.setId(String.valueOf(employee.getId()));
-            employeePageDto.setFirstName(employee.getFirstName());
-            result.add(employeePageDto);
+
+            result.add(convertRequest(employee));
         }
         return result;
     }
 
     public Optional<EmployeePageDto> findById(Long id) {
         try {
-            EmployeeResponse employeeResponses = restClient().get()
-                    .uri("/employees" + id)
-                    .retrieve()
-                    .body(EmployeeResponse.class);
-            EmployeePageDto employeePageDto = new EmployeePageDto();
-            employeePageDto.setId(String.valueOf(employeeResponses.getId()));
-            employeePageDto.setFirstName(employeeResponses.getFirstName());
-            return Optional.of(employeePageDto);
+            EmployeeResponse employeeResponses = request("/employees/" + id);
+            return Optional.of(convertRequest(employeeResponses));
         } catch (HttpServerErrorException ignored) {
             return Optional.empty();
         }

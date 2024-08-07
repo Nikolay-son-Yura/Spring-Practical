@@ -5,74 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4406d312-2474-465c-9ea0-9fd519f36806" name="Changes" comment="project restoration">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurika-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurika-server/src/main/java/ru/gb/EurekaServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurika-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurika-server/src/test/java/ru/gb/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/TimesheetPageApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/EmployeeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/ProjectResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/TimesheetResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/TimesheetRestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/EmployeePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/ProjectPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/TimesheetPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageDto/EmployeePageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageDto/ProjectPageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageDto/TimesheetPageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/EmployeePageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/ProjectPageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/TimesheetPageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/security/MyCustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/security/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/employee-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/employees-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/not-found.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/oops.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/project-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/projects-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/timesheet-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/timesheets-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-page/src/test/java/ru/gb/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/TimesheetRestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/aspect/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/aspect/Recover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/aspect/RecoverAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/controller/API.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/controller/ExceptionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/controller/ExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/controller/ProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/controller/TimesheetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/Roles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/Timesheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/model/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/repository/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/repository/TimesheetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/repository/UserRoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/security/MyCustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/security/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/service/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/service/TimesheetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/test/java/ru/gb/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/TimesheetApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/TimesheetApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gb/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-page/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/EmployeeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/EmployeeResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/ProjectPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/ProjectPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/TimesheetPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/TimesheetPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageDto/EmployeePageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageDto/EmployeePageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/EmployeePageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/EmployeePageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/ProjectPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/ProjectPageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/TimesheetPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/TimesheetPageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/employees-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/employees-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/projects-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/projects-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/timesheets-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/timesheets-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,9 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2kBlXerA1d7OtivyMzgc5CS5lhi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -104,7 +49,7 @@
   "keyToString": {
     "Application.EurekaServer.executor": "Run",
     "Application.TimesheetApplication.executor": "Run",
-    "Application.TimesheetPageApplication.executor": "Debug",
+    "Application.TimesheetPageApplication.executor": "Run",
     "Application.TimesheetRestApplication.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -212,22 +157,27 @@
       <option name="project" value="LOCAL" />
       <updated>1722765141157</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project restoration">
+      <option name="closed" value="true" />
+      <created>1722869607836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722869607836</updated>
+    </task>
+    <task id="LOCAL-00003" summary="project restoration">
+      <option name="closed" value="true" />
+      <created>1722869693860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722869693860</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project restoration" />
     <option name="LAST_COMMIT_MESSAGE" value="project restoration" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/TimesheetPageService.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
