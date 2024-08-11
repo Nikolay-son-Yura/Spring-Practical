@@ -14,5 +14,4 @@ public class TimesheetResponse {
     private Long EmployeeId;
     private Integer minutes;
     private LocalDate createdAt;
-
 }

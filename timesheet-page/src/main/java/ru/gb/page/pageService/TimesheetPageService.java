@@ -68,12 +68,12 @@ public class TimesheetPageService {
                 .uri("/projects/" + timesheetResponse.getProjectId())
                 .retrieve()
                 .body(ProjectResponse.class);
-        timesheetPageDto.setProjectId(project.getName());
+        timesheetPageDto.setProjectId(String.valueOf(project.getId()));
         EmployeeResponse employee = restClient().get()
                 .uri("/employees/" + timesheetResponse.getEmployeeId())
                 .retrieve()
                 .body(EmployeeResponse.class);
-        timesheetPageDto.setEmployeeId(employee.getFirstName());
+        timesheetPageDto.setEmployeeId(String.valueOf(employee.getId()));
 
         return timesheetPageDto;
     }

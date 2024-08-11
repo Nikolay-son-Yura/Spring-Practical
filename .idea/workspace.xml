@@ -5,19 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4406d312-2474-465c-9ea0-9fd519f36806" name="Changes" comment="project restoration">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/test/java/ru/gb/controller/EmployeeControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/test/java/ru/gb/controller/ProjectControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/test/java/ru/gb/controller/TimesheetControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/test/java/ru/gb/service/ProjectServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/test/java/ru/gb/service/TimesheetServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-page/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/EmployeeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/EmployeeResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/ProjectPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/ProjectPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/src/main/java/ru/gb/EurekaServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/ru/gb/EurekaServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/TimesheetResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/TimesheetResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/TimesheetPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/TimesheetPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageDto/EmployeePageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageDto/EmployeePageDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/EmployeePageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/EmployeePageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/ProjectPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/ProjectPageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/TimesheetPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/TimesheetPageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/employees-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/employees-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/projects-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/projects-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/timesheets-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/resources/templates/timesheets-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/TimesheetRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/TimesheetRestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/security/SecurityConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +55,22 @@
     "Application.TimesheetApplication.executor": "Run",
     "Application.TimesheetPageApplication.executor": "Run",
     "Application.TimesheetRestApplication.executor": "Run",
+    "JUnit.ProjectControllerTest.executor": "Debug",
+    "JUnit.ProjectControllerTest.getByIdAllOk.executor": "Run",
+    "JUnit.ProjectControllerTest.testCreate.executor": "Run",
+    "JUnit.ProjectControllerTest.testDeleteById.executor": "Run",
+    "JUnit.ProjectServiceTest.executor": "Run",
+    "JUnit.TimesheetControllerTest.createTimesheets.executor": "Run",
+    "JUnit.TimesheetControllerTest.deleteTimesheets.executor": "Run",
+    "JUnit.TimesheetControllerTest.executor": "Run",
+    "JUnit.TimesheetControllerTest.findAllTimesheets.executor": "Debug",
+    "JUnit.TimesheetControllerTest.getByIdTimesheets.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Kolka/Учеба/Учеба/JAVA/JAVA Spring/Practical/SpringPractical/eurika-server/src/main",
+    "last_opened_file_path": "C:/Kolka/Учеба/Учеба/JAVA/JAVA Spring/Practical/seminar/sem10",
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
@@ -76,67 +90,96 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.gb.controller" />
+      <recent name="ru.gb.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TimesheetPageApplication">
-    <configuration name="EurekaServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.EurekaServer" />
-      <module name="eurika-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimesheetApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.Lesson8.TimesheetApplication" />
-      <module name="SpringPractical" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.Lesson8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimesheetPageApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.TimesheetPageApplication" />
-      <module name="timesheet-page" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimesheetRestApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.TimesheetRestApplication" />
+  <component name="RunManager" selected="JUnit.TimesheetControllerTest.deleteTimesheets">
+    <configuration name="TimesheetControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="timesheet-rest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.*" />
+          <option name="PATTERN" value="ru.gb.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.controller" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.controller.TimesheetControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimesheetControllerTest.createTimesheets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="timesheet-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.controller" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.controller.TimesheetControllerTest" />
+      <option name="METHOD_NAME" value="createTimesheets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimesheetControllerTest.deleteTimesheets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="timesheet-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.controller" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.controller.TimesheetControllerTest" />
+      <option name="METHOD_NAME" value="deleteTimesheets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimesheetControllerTest.findAllTimesheets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="timesheet-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.controller" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.controller.TimesheetControllerTest" />
+      <option name="METHOD_NAME" value="findAllTimesheets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimesheetControllerTest.getByIdTimesheets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="timesheet-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.gb.controller" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.controller.TimesheetControllerTest" />
+      <option name="METHOD_NAME" value="getByIdTimesheets" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TimesheetPageApplication" />
-        <item itemvalue="Application.TimesheetRestApplication" />
-        <item itemvalue="Application.EurekaServer" />
-        <item itemvalue="Application.TimesheetApplication" />
+        <item itemvalue="JUnit.TimesheetControllerTest.deleteTimesheets" />
+        <item itemvalue="JUnit.TimesheetControllerTest.createTimesheets" />
+        <item itemvalue="JUnit.TimesheetControllerTest.findAllTimesheets" />
+        <item itemvalue="JUnit.TimesheetControllerTest" />
+        <item itemvalue="JUnit.TimesheetControllerTest.getByIdTimesheets" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722869693860</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project restoration">
+      <option name="closed" value="true" />
+      <created>1723031943647</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723031943647</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

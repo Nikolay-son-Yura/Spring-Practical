@@ -7,10 +7,10 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>eurika-server</artifactId>
+    <artifactId>eureka-server</artifactId>
     <packaging>jar</packaging>
 
-    <name>eurika-server</name>
+    <name>eureka-server</name>
     <url>http://maven.apache.org</url>
 
     <properties>

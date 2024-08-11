@@ -34,10 +34,8 @@ public class TimesheetPageController {
         if (timesheetOpt.isEmpty()) {
             throw new NoSuchElementException();
         }
-
         model.addAttribute("timesheet", timesheetOpt.get());
         return "timesheet-page.html";
     }
-
 
 }
