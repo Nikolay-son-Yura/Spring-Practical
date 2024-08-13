@@ -1,8 +1,10 @@
 package ru.gb.service;
 
 import org.springframework.stereotype.Service;
+import ru.gb.aspect.logging.Logging;
 import ru.gb.model.Project;
 import ru.gb.model.Timesheet;
+import ru.gb.aspect.recover.Recover;
 import ru.gb.repository.ProjectRepository;
 import ru.gb.repository.TimesheetRepository;
 
@@ -20,19 +22,22 @@ public class ProjectService {
         this.timesheetRepository = timesheetRepository;
     }
 
-    public List<Timesheet> findTimesheetsByProjectId(Long id){
+    public List<Timesheet> findTimesheetsByProjectId(Long id) {
         List<Timesheet> timesheetsByProjectId = new ArrayList<>();
         for (Timesheet timesheet : timesheetRepository.findAll()) {
-            if(timesheet.getProjectId().equals(id)){
+            if (timesheet.getProjectId().equals(id)) {
                 timesheetsByProjectId.add(timesheet);
             }
         }
         return timesheetsByProjectId;
     }
+@Logging
+    @Recover
     public Optional<Project> findById(Long id) {
         return projectRepository.findById(id);
     }
 
+    @Logging
     public List<Project> findAll() {
         return projectRepository.findAll();
     }

@@ -4,24 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4406d312-2474-465c-9ea0-9fd519f36806" name="Changes" comment="project restoration">
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/test/java/ru/gb/controller/EmployeeControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/test/java/ru/gb/controller/ProjectControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/test/java/ru/gb/controller/TimesheetControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/test/java/ru/gb/service/ProjectServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timesheet-rest/src/test/java/ru/gb/service/TimesheetServiceTest.java" afterDir="false" />
+    <list default="true" id="4406d312-2474-465c-9ea0-9fd519f36806" name="Changes" comment="test append">
+      <change afterPath="$PROJECT_DIR$/logging-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging-starter/src/main/java/ru/gb/aspect/logging/Logging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging-starter/src/main/java/ru/gb/aspect/logging/LoggingAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging-starter/src/main/java/ru/gb/aspect/logging/LoggingProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recover-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recover-starter/src/main/java/ru/gb/aspect/recover/RecoverAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recover-starter/src/main/java/ru/gb/aspect/recover/RecoverAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recover-starter/src/main/java/ru/gb/aspect/recover/RecoverProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recover-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurika-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurika-server/src/main/java/ru/gb/EurekaServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/ru/gb/EurekaServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurika-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/TimesheetResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/client/TimesheetResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/TimesheetPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageController/TimesheetPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/TimesheetPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-page/src/main/java/ru/gb/page/pageService/TimesheetPageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/timesheet-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-rest/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/TimesheetRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/TimesheetRestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/security/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/logging-starter/src/main/java/ru/gb/aspect/logging/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/aspect/Recover.java" beforeDir="false" afterPath="$PROJECT_DIR$/recover-starter/src/main/java/ru/gb/aspect/recover/Recover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/aspect/RecoverAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-rest/src/main/java/ru/gb/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timesheet-rest/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/timesheet-rest/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -49,41 +53,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EurekaServer.executor": "Run",
-    "Application.TimesheetApplication.executor": "Run",
-    "Application.TimesheetPageApplication.executor": "Run",
-    "Application.TimesheetRestApplication.executor": "Run",
-    "JUnit.ProjectControllerTest.executor": "Debug",
-    "JUnit.ProjectControllerTest.getByIdAllOk.executor": "Run",
-    "JUnit.ProjectControllerTest.testCreate.executor": "Run",
-    "JUnit.ProjectControllerTest.testDeleteById.executor": "Run",
-    "JUnit.ProjectServiceTest.executor": "Run",
-    "JUnit.TimesheetControllerTest.createTimesheets.executor": "Run",
-    "JUnit.TimesheetControllerTest.deleteTimesheets.executor": "Run",
-    "JUnit.TimesheetControllerTest.executor": "Run",
-    "JUnit.TimesheetControllerTest.findAllTimesheets.executor": "Debug",
-    "JUnit.TimesheetControllerTest.getByIdTimesheets.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Kolka/Учеба/Учеба/JAVA/JAVA Spring/Practical/seminar/sem10",
-    "settings.editor.selected.configurable": "settings.sync"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EurekaServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimesheetApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimesheetPageApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimesheetRestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProjectControllerTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ProjectControllerTest.getByIdAllOk.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProjectControllerTest.testCreate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProjectControllerTest.testDeleteById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProjectServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimesheetControllerTest.createTimesheets.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimesheetControllerTest.deleteTimesheets.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimesheetControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimesheetControllerTest.findAllTimesheets.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TimesheetControllerTest.getByIdTimesheets.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Kolka/Учеба/Учеба/JAVA/JAVA Spring/Practical/SpringPractical/recover-starter/src/main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.gb.page.pageService" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\recover-starter\src\main" />
+      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\logging-starter\src\main\resources" />
       <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\eurika-server\src\main" />
       <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\timesheet-page\src\main" />
       <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\timesheet-page\src\main\java\ru\gb\client" />
-      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\timesheet-page\src\main\java\ru\gb" />
-      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\timesheet-page\src\main\java\ru\gb\page" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\SpringPractical\logging-starter\src\main\resources\META-INF\spring" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.gb" />
@@ -93,18 +100,29 @@
       <recent name="ru.gb.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TimesheetControllerTest.deleteTimesheets">
-    <configuration name="TimesheetControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="timesheet-rest" />
+  <component name="RunManager" selected="Application.TimesheetRestApplication">
+    <configuration name="EurekaServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.EurekaServer" />
+      <module name="eurika-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.controller.*" />
+          <option name="PATTERN" value="ru.gb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.controller" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.controller.TimesheetControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimesheetRestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.TimesheetRestApplication" />
+      <module name="timesheet-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,29 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimesheetControllerTest.getByIdTimesheets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="timesheet-rest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.gb.controller" />
-      <option name="MAIN_CLASS_NAME" value="ru.gb.controller.TimesheetControllerTest" />
-      <option name="METHOD_NAME" value="getByIdTimesheets" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimesheetRestApplication" />
+        <item itemvalue="Application.EurekaServer" />
         <item itemvalue="JUnit.TimesheetControllerTest.deleteTimesheets" />
         <item itemvalue="JUnit.TimesheetControllerTest.createTimesheets" />
         <item itemvalue="JUnit.TimesheetControllerTest.findAllTimesheets" />
-        <item itemvalue="JUnit.TimesheetControllerTest" />
-        <item itemvalue="JUnit.TimesheetControllerTest.getByIdTimesheets" />
       </list>
     </recent_temporary>
   </component>
@@ -224,11 +226,20 @@
       <option name="project" value="LOCAL" />
       <updated>1723031943647</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test append">
+      <option name="closed" value="true" />
+      <created>1723357006127</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723357006127</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project restoration" />
-    <option name="LAST_COMMIT_MESSAGE" value="project restoration" />
+    <MESSAGE value="test append" />
+    <option name="LAST_COMMIT_MESSAGE" value="test append" />
   </component>
 </project>
