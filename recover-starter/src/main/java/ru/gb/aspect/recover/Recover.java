@@ -12,4 +12,6 @@ public @interface Recover {
     boolean enabled() default true;
 
     Class<?>[] noRecovered() default {};
+
+    boolean replaceDefaultList() default false;
 }

@@ -31,7 +31,8 @@ public class ProjectService {
         }
         return timesheetsByProjectId;
     }
-@Logging
+
+    @Logging
     @Recover
     public Optional<Project> findById(Long id) {
         return projectRepository.findById(id);
